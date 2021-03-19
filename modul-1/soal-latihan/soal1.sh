@@ -2,7 +2,6 @@
 
 sum=0
 
-
 # kalo genap
 if [ $(($# % 2)) -eq 0  ]
 then 

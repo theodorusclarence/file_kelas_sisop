@@ -1,0 +1,1 @@
+*/15 8-17 * * * du -sh /home/clarence/modul1-sisop > /home/clarence/log/"$(date)"
