@@ -1,8 +1,10 @@
 #!/bin/bash
-msg=$1
 
 git add .
 git status
+
+echo "commit message:"
+read msg
 
 read -r -p "Continue to push? [Y/n] " response
 
