@@ -1,2 +1,3 @@
 #!/bin/bash
-cp -r folder1/* folder2
+mkdir folder2
+cp -r `pwd`/folder1/* `pwd`/folder2
